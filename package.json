@@ -1,0 +1,23 @@
+{
+  "name": "desafio-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^3.21.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandataylor/desafio-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandataylor/desafio-api/issues"
+  },
+  "homepage": "https://github.com/amandataylor/desafio-api#readme"
+}
