@@ -2,10 +2,10 @@
 var express = require('express'),
     app = express();
 
-app.use(express.static('public'));
+//app.use(express.static('public'));
 
 app.get('/index.html', function (req, res){
-    res.sendFile( __dirname + "/" + "index.html");
+    res.sendFile("index.html");
 });
 
 app.get('/process_get', function (req, res) {
