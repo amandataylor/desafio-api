@@ -9,6 +9,6 @@ app.get('/', function(req, res){
 });
 
 // Informando o servidor para escutar uma porta.
-app.listen(3001, 'localhost', function() {
-  console.log("... port %d in %s mode", app.address().port, app.settings.env);
+app.listen(8080, 'localhost', function() {
+    console.log('Servidor Express iniciado!');
 });
