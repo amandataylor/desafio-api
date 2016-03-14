@@ -4,16 +4,23 @@
         <title>Formulário</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../styles/less/style.less">
-        <link rel="stylesheet" href="../styles/style.css">
+        <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet/less" href="../styles/less/style.less">
+        <link type="text/css" rel="stylesheet" href="../styles/style.css">
     </head>
     <body>
         <div class="desafio-hu">
+	
+            <!-- CABEÇALHO -->
+            <div class="desafio-hu-header">
             <div class="row">
                 <div class="col-md-6">Logo</div>
                 <div class="col-md-6"></div>
             </div>
+            </div>
+            
+            <!--CORPO -->
+            <div class="desafio-hu-body">
             <div class="row">
                 <form action="http://localhost:8080/process_get" method="GET">
                     Nome: <input type="text" name="nome"><br>
@@ -25,15 +32,20 @@
                     <input type="submit" value="Enviar">
                 </form>
             </div>
+	    </div>
+
+	   <!-- RODAPÉ -->
+	    <div class="desafio-hu-footer">
             <div class="row">
                 <div class="col-md-4">.col-md-4</div>
                 <div class="col-md-4">.col-md-4</div>
                 <div class="col-md-4">.col-md-4</div>
             </div>
+            </div>
         </div>
+	<script type="application/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
     </body>
 </html>
 
